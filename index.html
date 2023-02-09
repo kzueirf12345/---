@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="favicon.ico">
+    <title>Квантовый верстальщик</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header_logo">
+                <img src="assets/icons8-Бозон_Хиггса.png" alt="Логотип сайта">
+            </div>
+            <nav class="header_nav">
+                <ul class="header_list list list_nonestyle">
+                    <li class="list_item">
+                        <a href="#standart_model" class="list_link">Стандартная модель</a>
+                    </li>
+                    <li class="list_item">
+                        <a href="#elementary" class="list_link">Различие частиц</a>
+                    </li>
+                    <li class="list_item">
+                        <a href="#Higgs" class="list_link">Бозон Хиггса</a>
+                    </li>
+                    <li class="list_item">
+                        <a href="#contact" class="list_link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="intro">
+            <div class="glass">
+                <div class="container">
+                    <div class="intro_header">
+                        <h1>Квантовый верстальщик</h1>
+                    </div>
+                    <p class="intro_text">
+                        <i>
+                            Этот сайт создан для мониторинга развития квантовой физики, в частности физики элементарных
+                            частиц и
+                            стандартной модели. Так как проект находится на этапе разработки, просим всех неравнодушных
+                            помочь
+                            со
+                            сбором информации. Если вы хотите помочь с продвижением проекта, для связи с разработчиком
+                            используйте
+                            контакты из подвала сайта. Спасибо за помощь!
+                        </i>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content">
+            <article id="standart_model" class="topic">
+                <div class="container">
+                    <div class="topic_header">
+                        <h2>Стандартная модель</h2>
+                    </div>
+                    <div class="topic_sections">
+                        <section class="topic_item">
+                            <p class="topic_text">
+                                Простыми словами Стандартная модель – это таблица всех субатомных частиц из которых
+                                состоит
+                                наша
+                                вселенная, эти частицы
+                                (как нам известно на данный момент) не делимы. Можно взять более понятную аналогию —
+                                компьютер.
+                                Код
+                                компьютера — это единички и нолики, а код нашей вселенной вот:
+                            </p>
+                        </section>
+                        <section class="topic_item">
+                            <img src="assets/Стандартная_модель.jpg" alt="Стандартная модель">
+                        </section>
+                    </div>
+                </div>
+            </article>
+
+            <article id="elementary" class="topic bc_dark">
+                <div class="container">
+                    <div class="topic_header">
+                        <h2>Различие элементарных частиц</h2>
+                    </div>
+                    <div class="topic_sections">
+                        <section class="topic_item">
+                            <img src="assets/различие_частиц_схема.png" alt="Схема различия элементарных частиц">
+                        </section>
+                        <section class="topic_item">
+                            <h3>Фермионы и бозоны</h3>
+                            <p>
+                            <ol>
+                                <li>
+                                    У бозонов целое значение спина, а у фермионов дробное.<br>
+                                    <i><a href="https://ru.wikipedia.org/wiki/Спин" target="_blank">Спин</a> – это собственный момент
+                                        импульса
+                                        элементарных частиц.</i>
+                                </li>
+                                <li>
+                                    Фермион может иметь античастицы, а бозон — нет.<br>
+                                    <i><a href="https://ru.wikipedia.org/wiki/Античастицы" target="_blank">Античастица</a> —
+                                        частица-двойник,
+                                        обладающая
+                                        той же массой и тем же спином, отличающаяся от неё
+                                        знаками всех других характеристик взаимодействия.</i>
+                                </li>
+                            </ol>
+                            </p>
+                            <h3>Кварки и лептоны</h3>
+                            <p>
+                            <ul>
+                                <li>Лептоны <strong>не</strong> могут отвечать за сильное
+                                    <a href="https://ru.wikipedia.org/wiki/Фундаментальные_взаимодействия" target="_blank">взаимодействие
+                                        частиц</a>, а
+                                    кварки могут.
+                                </li>
+                            </ul>
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </article>
+
+            <article id="Higgs" class="topic">
+                <div class="container">
+                    <div class="topic_header">
+                        <h2>Бозон Хиггса</h2>
+                    </div>
+                    <div class="topic_sections">
+                        <section class="topic_item">
+                            <p>
+                                Вроде бы разобрались. Кварки, лептоны и бозоны рассортированы, понятно кто за что
+                                отвечает. Но по какому принципу определяются свойства этих частиц? Например, масса. Как
+                                она
+                                определяется
+                                у элементраных частиц, если законы всемирного тяготения не работают на квантовом уровне?
+                                Долгое
+                                время
+                                физики задавались таким же вопросом, но в 2012 году Питером Хиггсом и его командой была
+                                открыта
+                                "<em>Частица Бога</em>", которая решает проблемы самоопределения частиц. Предлагаем
+                                посмотреть
+                                видеоролик, в котором объясняется, что же это за частица.
+                            </p>
+                        </section>
+                        <section class="topic_item">
+                            <video src="assets/Видео_БХ.mp4" controls></video>
+                            </iframe>
+                        </section>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer bc_dark">
+        <div class="container">
+            <h2>Контакты:</h2>
+            <ul class="list_nonestyle">
+                <li>Телефон — 89170946051</li>
+                <li>Email — jaba0192837465@gmail.com</li>
+                <li>Адрес — г. Астрахань, ул. Пушкина, д. Колотушкина, офис 1</li>
+            </ul>
+            <nav>
+                <a href="https://vk.com/feed" target="_blank"><img src="assets/icons8-вконтакте.svg" alt="Иконка Вконтакте"></a>
+                <a href="https://web.telegram.org/k/" target="_blank"><img src="assets/icons8-телеграмм.svg" alt="Иконка Телеграмм"></a>
+                <a href="https://qiwi.com" target="_blank"><img src="assets/icons8-qiwi.svg" alt="Иконка Киви"></a>
+            </nav>
+            <a href="#header">Наверх</a>
+        </div>
+    </footer>
+</body>
+
+</html>
